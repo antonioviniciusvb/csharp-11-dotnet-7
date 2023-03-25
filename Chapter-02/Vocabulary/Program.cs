@@ -15,8 +15,6 @@ string word = "Hello";
 
 Console.WriteLine($"{nameof(word)} = {word}.");
 
-
-
 Assembly? myApp = Assembly.GetEntryAssembly();
 
 //quit the app

@@ -5,8 +5,8 @@ var separator = new string('-', 74);
 
 var header = $"{"Type",-10}{"Byte (s) of Memory"}{"Min",16}{"Max",30}";
 
-Console.WriteLine(separator);
-Console.WriteLine(header);
+WriteLine(separator);
+WriteLine(header);
 
 var body = $"""
 {"sbyte", -10}{Marshal.SizeOf(typeof(sbyte)),-4}{sbyte.MinValue, 30}{sbyte.MaxValue,30}
@@ -22,4 +22,4 @@ var body = $"""
 {"decimal",-10}{Marshal.SizeOf(typeof(decimal)),-4}{decimal.MinValue,30}{decimal.MaxValue,30}
 """;
 
-Console.WriteLine(body);
+WriteLine(body);

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,7 @@
   
   <ItemGroup>
   	<Using Include="System.Runtime.InteropServices"/>
+    <Using Include="System.Console" Static="true"/>
   </ItemGroup>
 
 </Project>

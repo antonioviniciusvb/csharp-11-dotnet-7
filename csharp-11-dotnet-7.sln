@@ -25,6 +25,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingPlatforms", "Chapte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncConsole", "Chapter-02\AsyncConsole\AsyncConsole.csproj", "{FBC734A4-C520-4F32-9E8F-6FF76D0E721E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{F2A011CB-524B-4B42-8278-200799938859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSizesAndRanges", "NumberSizesAndRanges\NumberSizesAndRanges.csproj", "{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{FBC734A4-C520-4F32-9E8F-6FF76D0E721E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC734A4-C520-4F32-9E8F-6FF76D0E721E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC734A4-C520-4F32-9E8F-6FF76D0E721E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +89,7 @@ Global
 		{D67AA86F-3A5F-48A8-86E5-8C656A50F09F} = {9C2CFC81-C0F1-4D82-8958-086B33FC6B57}
 		{7022C617-59DC-4168-ADD0-361223E57660} = {9C2CFC81-C0F1-4D82-8958-086B33FC6B57}
 		{FBC734A4-C520-4F32-9E8F-6FF76D0E721E} = {9C2CFC81-C0F1-4D82-8958-086B33FC6B57}
+		{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52} = {F2A011CB-524B-4B42-8278-200799938859}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

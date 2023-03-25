@@ -4,7 +4,13 @@ using System.Reflection;
 //Declare some unused variables using types
 //in additional assemblies
 DataSet ds;
-HttpClient client; 
+HttpClient client;
+
+//keyword nameof implemented in C# 6.0
+string word = "Hello";
+
+Console.WriteLine($"{nameof(word)} = {word}.");
+
 
 
 Assembly? myApp = Assembly.GetEntryAssembly();

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCSharp", "Chapter-01\H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutMyEnvironment", "Chapter-01\AboutMyEnvironment\AboutMyEnvironment.csproj", "{18AE7D34-6193-438A-A00D-2CBD5BD66DA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-01", "Chapter-01", "{D1535E8E-5D5A-412E-A193-0F91612B9552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vocabulary", "Chapter-02\Vocabulary\Vocabulary.csproj", "{1A2F271C-EB0E-490F-8254-6C7F6E5C927F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,17 @@ Global
 		{18AE7D34-6193-438A-A00D-2CBD5BD66DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18AE7D34-6193-438A-A00D-2CBD5BD66DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18AE7D34-6193-438A-A00D-2CBD5BD66DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2F271C-EB0E-490F-8254-6C7F6E5C927F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2F271C-EB0E-490F-8254-6C7F6E5C927F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2F271C-EB0E-490F-8254-6C7F6E5C927F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2F271C-EB0E-490F-8254-6C7F6E5C927F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4CB5317-3D31-4F28-AA3D-007830402937} = {D1535E8E-5D5A-412E-A193-0F91612B9552}
+		{18AE7D34-6193-438A-A00D-2CBD5BD66DA1} = {D1535E8E-5D5A-412E-A193-0F91612B9552}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

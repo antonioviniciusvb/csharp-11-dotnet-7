@@ -1,6 +1,10 @@
 ﻿using System.Data;
 using System.Reflection;
 
+// assignin a string returned form the string class construtor
+string horizontalLine = new('-', count: 74);
+
+Console.WriteLine(horizontalLine);
 //Declare some unused variables using types
 //in additional assemblies
 DataSet ds;

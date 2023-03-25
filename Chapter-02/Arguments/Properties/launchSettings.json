@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Arguments": {
+      "commandName": "Project",
+      "commandLineArgs": "irstarg second-arg third:arg \"fourth\r\narg\" -file \"customers.csv\""
+    }
+  }
+}

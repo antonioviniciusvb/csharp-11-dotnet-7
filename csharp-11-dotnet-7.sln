@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberSizesAndRanges", "Cha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-03", "Chapter-03", "{5BE0FA8C-0740-4E7A-839D-DE04D6F218CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseAndShiftOperators", "BitwiseAndShiftOperators\BitwiseAndShiftOperators.csproj", "{4574DE75-0596-4997-B3FD-B47B59A605B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseAndShiftOperators", "BitwiseAndShiftOperators\BitwiseAndShiftOperators.csproj", "{4574DE75-0596-4997-B3FD-B47B59A605B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionStatements", "Chapter-03\SelectionStatements\SelectionStatements.csproj", "{1DE13242-1499-4CFD-BA8D-C31998C8B75F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionStatements", "Chapter-03\SelectionStatements\SelectionStatements.csproj", "{1DE13242-1499-4CFD-BA8D-C31998C8B75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{C70BEB08-E12D-4E04-AFDC-2B8484CDB12F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{1DE13242-1499-4CFD-BA8D-C31998C8B75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE13242-1499-4CFD-BA8D-C31998C8B75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DE13242-1499-4CFD-BA8D-C31998C8B75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70BEB08-E12D-4E04-AFDC-2B8484CDB12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70BEB08-E12D-4E04-AFDC-2B8484CDB12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70BEB08-E12D-4E04-AFDC-2B8484CDB12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70BEB08-E12D-4E04-AFDC-2B8484CDB12F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{B20448DD-AD9A-40F2-BB9E-CDD5E5537F52} = {F2A011CB-524B-4B42-8278-200799938859}
 		{4574DE75-0596-4997-B3FD-B47B59A605B0} = {5BE0FA8C-0740-4E7A-839D-DE04D6F218CA}
 		{1DE13242-1499-4CFD-BA8D-C31998C8B75F} = {5BE0FA8C-0740-4E7A-839D-DE04D6F218CA}
+		{C70BEB08-E12D-4E04-AFDC-2B8484CDB12F} = {5BE0FA8C-0740-4E7A-839D-DE04D6F218CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

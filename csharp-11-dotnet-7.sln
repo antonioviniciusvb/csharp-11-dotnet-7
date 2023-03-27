@@ -51,6 +51,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibUnitTests", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseAndShiftOperators", "Chapter-03\BitwiseAndShiftOperators\BitwiseAndShiftOperators.csproj", "{71F2A3CA-E297-474A-8663-3DAE6D639F1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExcepetionHandlingLib", "Chapter-04\CallStackExcepetionHandlingLib\CallStackExcepetionHandlingLib.csproj", "{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{BC2F9A68-7B77-405C-881D-DD69362B6BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +137,14 @@ Global
 		{71F2A3CA-E297-474A-8663-3DAE6D639F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F2A3CA-E297-474A-8663-3DAE6D639F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F2A3CA-E297-474A-8663-3DAE6D639F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +169,8 @@ Global
 		{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{A7BAD504-0825-4A0F-A1A6-268A445C3086} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{71F2A3CA-E297-474A-8663-3DAE6D639F1A} = {5BE0FA8C-0740-4E7A-839D-DE04D6F218CA}
+		{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
+		{BC2F9A68-7B77-405C-881D-DD69362B6BED} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

@@ -1,5 +1,6 @@
 ﻿int a = 10; // 00001010
 int b = 6; //  00000110
+int c = 32;
 WriteLine($"a = {a}");
 WriteLine($"b = {b}");
 WriteLine($"a & b = {a & b}"); // 2-bit column only e.g. 00000010
@@ -14,6 +15,12 @@ WriteLine($"a << 3 = {a << 3}");
 WriteLine($"a * 8 = {a * 8}");
 // 00000011 right-shift b by one bit column
 WriteLine($"b >> 1 = {b >> 1}");
+
+
+WriteLine($"c = {ToBinaryString(c)}");
+WriteLine($"c >> 6 = {c >> 6}");
+c = c >> 6;
+WriteLine($"c = {ToBinaryString(c)}");
 
 
 WriteLine();

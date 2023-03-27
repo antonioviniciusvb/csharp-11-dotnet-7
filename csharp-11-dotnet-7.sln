@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibImperative", "FibImperat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibFunctional", "FibFunctional\FibFunctional.csproj", "{02BFBBFB-FC10-4FB0-9805-6BECD08F185A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{A463828A-8344-4FAD-8AFF-DDB442330F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,10 @@ Global
 		{02BFBBFB-FC10-4FB0-9805-6BECD08F185A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02BFBBFB-FC10-4FB0-9805-6BECD08F185A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02BFBBFB-FC10-4FB0-9805-6BECD08F185A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A463828A-8344-4FAD-8AFF-DDB442330F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A463828A-8344-4FAD-8AFF-DDB442330F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A463828A-8344-4FAD-8AFF-DDB442330F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A463828A-8344-4FAD-8AFF-DDB442330F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +142,7 @@ Global
 		{753C4547-CAF7-48DF-A9E8-0400698B80F9} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{017085F1-E90E-4068-A31C-1B2931763BAF} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{02BFBBFB-FC10-4FB0-9805-6BECD08F185A} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
+		{A463828A-8344-4FAD-8AFF-DDB442330F97} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

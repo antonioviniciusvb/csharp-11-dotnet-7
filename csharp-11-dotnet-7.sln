@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibFunctional", "Chapter-04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instrumenting", "Chapter-04\Instrumenting\Instrumenting.csproj", "{A463828A-8344-4FAD-8AFF-DDB442330F97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "Chapter-04\CalculatorLib\CalculatorLib.csproj", "{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLib", "Chapter-04\CalculatorLib\CalculatorLib.csproj", "{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibUnitTests", "Chapter-04\CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{A7BAD504-0825-4A0F-A1A6-268A445C3086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +129,10 @@ Global
 		{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BAD504-0825-4A0F-A1A6-268A445C3086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BAD504-0825-4A0F-A1A6-268A445C3086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BAD504-0825-4A0F-A1A6-268A445C3086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BAD504-0825-4A0F-A1A6-268A445C3086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{02BFBBFB-FC10-4FB0-9805-6BECD08F185A} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{A463828A-8344-4FAD-8AFF-DDB442330F97} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{3D4A9005-99A7-472B-8EBA-263F0EF4B8BA} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
+		{A7BAD504-0825-4A0F-A1A6-268A445C3086} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

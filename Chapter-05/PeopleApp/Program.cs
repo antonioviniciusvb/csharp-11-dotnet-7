@@ -80,6 +80,10 @@ var tuples = lifeTheUniverseAndEverything.GetTuple();
 
 WriteLine($"{tuples.Text} - {tuples.Number}");
 
+(string name, int number)  = lifeTheUniverseAndEverything.GetTuple();
+
+WriteLine($"{name} - {number}");
+
 #endregion
 
 ReadKey();

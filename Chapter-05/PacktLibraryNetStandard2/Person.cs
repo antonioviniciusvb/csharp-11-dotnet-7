@@ -4,7 +4,11 @@ namespace Packt.Shared;
 
 public class Person : Object
 {
+    public const string Species = "Homo Sapiens";
+
     public string? Name { get; set; }
+
+    // constants
     public DateTime DateOfBirth { get; set; }
 
     private WondersOfTheAncientWorld _bucketList;

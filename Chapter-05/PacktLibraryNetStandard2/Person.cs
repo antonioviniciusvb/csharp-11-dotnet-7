@@ -4,7 +4,7 @@ namespace Packt.Shared;
 
 public class Person : Object
 {
-    public const string  Species = "Homo Sapiens";
+    public const string Species = "Homo Sapiens";
 
     // read-only fields
     public readonly string HomePlanet = "Earth";
@@ -22,7 +22,7 @@ public class Person : Object
         get { return _bucketList; }
         set
         {
-            if(((int)value >> 7) != 0)
+            if (((int)value >> 7) != 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(value));
             }
@@ -35,7 +35,7 @@ public class Person : Object
 
     public Person()
     {
-        
+
         Children = new List<Person>();
         this.Instantiated = DateTime.Now;
     }
@@ -48,4 +48,17 @@ public class Person : Object
         Instantiated = DateTime.Now;
     }
 
+    // deconstructors
+    public void Deconstruct(out string? name, out DateTime dob)
+    {
+        name = Name;
+        dob = DateOfBirth;
+    }
+
+    public void Deconstruct(out string? name, out DateTime dob, out WondersOfTheAncientWorld fav)
+    {
+        name = Name;
+        dob = DateOfBirth;
+        fav = BucketList;
+    }
 }

@@ -1,6 +1,7 @@
 ﻿using Pack.Shared;
 using Packt.Shared;
 using PacktShare;
+using System.Reflection.Metadata;
 using static Pack.Shared.WondersOfTheAncientWorld;
 
 #region Culture
@@ -9,16 +10,23 @@ System.Globalization.CultureInfo.GetCultureInfo("pt-BR");
 
 #endregion
 
-#region Sample Class, Enum
-//Person bob = new();
-//WriteLine(bob.ToString());
+#region Sample Class, Enum, Deconstructing
 
-//bob.Name = "Bob Smith";
-//bob.BucketList = GreatPyramidOfGiza | ColossusOfRhodes;
-//bob.DateOfBirth = new DateTime(1965, 12, 22); // C# 1.0 or later
+Person bob = new();
+WriteLine(bob.ToString());
 
-//bob.Children.Add(new Person { Name = "Alfred" });
-//bob.Children.Add(new Person { Name = "Zoe" });
+bob.Name = "Bob Smith";
+bob.BucketList = GreatPyramidOfGiza | ColossusOfRhodes;
+bob.DateOfBirth = new DateTime(1965, 12, 22); // C# 1.0 or later
+
+bob.Children.Add(new Person { Name = "Alfred" });
+bob.Children.Add(new Person { Name = "Zoe" });
+
+// Deconstructing a Person
+var (nameBob, dobBob) = bob; // implicitly calls the Deconstruct method
+WriteLine($"Deconstructed: {nameBob}, {dobBob}");
+var (name2, dob2, fav2) = bob;
+WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");
 
 //WriteLine(format: "{0} was born on {1:dddd, d MMMM yyyy}, Favorite: {2}",
 //arg0: bob.Name,

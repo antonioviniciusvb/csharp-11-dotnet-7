@@ -78,19 +78,49 @@ WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");
 
 #region Tuples
 
-LifeTheUniverseAndEverything lifeTheUniverseAndEverything = new LifeTheUniverseAndEverything();
-var textAndnumber = lifeTheUniverseAndEverything.GetTheData();
+//LifeTheUniverseAndEverything lifeTheUniverseAndEverything = new LifeTheUniverseAndEverything();
+//var textAndnumber = lifeTheUniverseAndEverything.GetTheData();
 
-WriteLine($"{textAndnumber.Text} - {textAndnumber.Number}");
+//WriteLine($"{textAndnumber.Text} - {textAndnumber.Number}");
 
 
-var tuples = lifeTheUniverseAndEverything.GetTuple();
+//var tuples = lifeTheUniverseAndEverything.GetTuple();
 
-WriteLine($"{tuples.Text} - {tuples.Number}");
+//WriteLine($"{tuples.Text} - {tuples.Number}");
 
-(string name, int number)  = lifeTheUniverseAndEverything.GetTuple();
+//(string name, int number)  = lifeTheUniverseAndEverything.GetTuple();
 
-WriteLine($"{name} - {number}");
+//WriteLine($"{name} - {number}");
+
+#endregion
+
+#region Properties
+Person sam = new()
+{
+    Name = "Mrs Sam",
+    BucketList = WondersOfTheAncientWorld.GreatPyramidOfGiza | WondersOfTheAncientWorld.ColossusOfRhodes,
+    DateOfBirth = new DateTime(1994, 07, 23)
+};
+
+WriteLine(sam.Origin);
+WriteLine(sam.Greeting);
+WriteLine(sam.Age);
+
+sam.FavoriteIceCream = "Chocolate Fudge";
+WriteLine($"Sam's favorite ice-cream flavor is {sam.FavoriteIceCream}.");
+string color = "Red";
+try
+{
+    sam.FavoritePrimaryColor = color;
+    WriteLine($"Sam's favorite primary color is {sam.
+    FavoritePrimaryColor}.");
+}
+catch (Exception ex)
+{
+    WriteLine("Tried to set {0} to '{1}': {2}",
+    nameof(sam.FavoritePrimaryColor), color, ex.Message);
+}
+
 
 #endregion
 

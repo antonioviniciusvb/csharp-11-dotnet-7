@@ -2,7 +2,7 @@
 
 namespace Packt.Shared;
 
-public class Person : Object
+public partial class Person : Object
 {
     public const string Species = "Homo Sapiens";
 

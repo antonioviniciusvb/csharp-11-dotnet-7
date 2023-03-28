@@ -21,4 +21,6 @@ public class LifeTheUniverseAndEverything
             Number = 42
         };
     }
+
+    public (string, int) GetTuple() => new("What's the meaning of life?", 42);
 }

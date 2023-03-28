@@ -76,9 +76,9 @@ var textAndnumber = lifeTheUniverseAndEverything.GetTheData();
 WriteLine($"{textAndnumber.Text} - {textAndnumber.Number}");
 
 
-(string, int) tuples = lifeTheUniverseAndEverything.GetTuple();
+var tuples = lifeTheUniverseAndEverything.GetTuple();
 
-WriteLine($"{tuples.Item1} - {tuples.Item2}");
+WriteLine($"{tuples.Text} - {tuples.Number}");
 
 #endregion
 

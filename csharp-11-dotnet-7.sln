@@ -55,11 +55,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallStackExcepetionHandling
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{BC2F9A68-7B77-405C-881D-DD69362B6BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibraryNetStandard2", "Chapter-05\PacktLibraryNetStandard2\PacktLibraryNetStandard2.csproj", "{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacktLibraryNetStandard2", "Chapter-05\PacktLibraryNetStandard2\PacktLibraryNetStandard2.csproj", "{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-05", "Chapter-05", "{C47D025C-AC2B-4535-BFAD-9D167CBF254F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "Chapter-05\PeopleApp\PeopleApp.csproj", "{4FA69723-B31F-4CA9-A731-7D005911B4EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleApp", "Chapter-05\PeopleApp\PeopleApp.csproj", "{4FA69723-B31F-4CA9-A731-7D005911B4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibraryModern", "Chapter-05\PacktLibraryModern\PacktLibraryModern.csproj", "{5264C49E-923B-418C-BC12-FC3CFC879A2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5264C49E-923B-418C-BC12-FC3CFC879A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5264C49E-923B-418C-BC12-FC3CFC879A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5264C49E-923B-418C-BC12-FC3CFC879A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5264C49E-923B-418C-BC12-FC3CFC879A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -187,6 +193,7 @@ Global
 		{BC2F9A68-7B77-405C-881D-DD69362B6BED} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F} = {C47D025C-AC2B-4535-BFAD-9D167CBF254F}
 		{4FA69723-B31F-4CA9-A731-7D005911B4EA} = {C47D025C-AC2B-4535-BFAD-9D167CBF254F}
+		{5264C49E-923B-418C-BC12-FC3CFC879A2C} = {C47D025C-AC2B-4535-BFAD-9D167CBF254F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

@@ -51,9 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibUnitTests", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseAndShiftOperators", "Chapter-03\BitwiseAndShiftOperators\BitwiseAndShiftOperators.csproj", "{71F2A3CA-E297-474A-8663-3DAE6D639F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExcepetionHandlingLib", "Chapter-04\CallStackExcepetionHandlingLib\CallStackExcepetionHandlingLib.csproj", "{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallStackExcepetionHandlingLib", "Chapter-04\CallStackExcepetionHandlingLib\CallStackExcepetionHandlingLib.csproj", "{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{BC2F9A68-7B77-405C-881D-DD69362B6BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{BC2F9A68-7B77-405C-881D-DD69362B6BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibraryNetStandard2", "Chapter-05\PacktLibraryNetStandard2\PacktLibraryNetStandard2.csproj", "{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-05", "Chapter-05", "{C47D025C-AC2B-4535-BFAD-9D167CBF254F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "Chapter-05\PeopleApp\PeopleApp.csproj", "{4FA69723-B31F-4CA9-A731-7D005911B4EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +151,14 @@ Global
 		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC2F9A68-7B77-405C-881D-DD69362B6BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA69723-B31F-4CA9-A731-7D005911B4EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +185,8 @@ Global
 		{71F2A3CA-E297-474A-8663-3DAE6D639F1A} = {5BE0FA8C-0740-4E7A-839D-DE04D6F218CA}
 		{111D4892-BCEC-4AAD-8A6A-82F13C7C5B35} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
 		{BC2F9A68-7B77-405C-881D-DD69362B6BED} = {636C467D-B49E-47CF-B903-D7A46C10D8BA}
+		{6EF891E7-3EDF-49F6-BBA9-DF27F1EDF33F} = {C47D025C-AC2B-4535-BFAD-9D167CBF254F}
+		{4FA69723-B31F-4CA9-A731-7D005911B4EA} = {C47D025C-AC2B-4535-BFAD-9D167CBF254F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FB0E61B-D02F-4B81-8F48-8A8F11B04F1D}

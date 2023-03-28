@@ -11,14 +11,14 @@ System.Globalization.CultureInfo.GetCultureInfo("pt-BR");
 
 #region Sample Class, Enum, Deconstructing
 
-Person bob = new();
+//Person bob = new();
 
-bob.Name = "Bob Smith";
-bob.BucketList = GreatPyramidOfGiza | ColossusOfRhodes;
-bob.DateOfBirth = new DateTime(1965, 12, 22); // C# 1.0 or later
+//bob.Name = "Bob Smith";
+//bob.BucketList = GreatPyramidOfGiza | ColossusOfRhodes;
+//bob.DateOfBirth = new DateTime(1965, 12, 22); // C# 1.0 or later
 
-bob.Children.Add(new Person { Name = "Alfred" });
-bob.Children.Add(new Person { Name = "Zoe" });
+//bob.Children.Add(new Person { Name = "Alfred" });
+//bob.Children.Add(new Person { Name = "Zoe" });
 
 
 //Person leona = new();
@@ -32,45 +32,45 @@ bob.Children.Add(new Person { Name = "Zoe" });
 //Person.Marry(leona, bob);
 //leona.Marry(bob);
 
-Person lamech = new() { Name = "Lamech" };
-Person adah = new() { Name = "Adah" };
-Person zillah = new() { Name = "Zillah" };
-lamech.Marry(adah);
-//Person.Marry(zillah, lamech);
+//Person lamech = new() { Name = "Lamech" };
+//Person adah = new() { Name = "Adah" };
+//Person zillah = new() { Name = "Zillah" };
+//lamech.Marry(adah);
+////Person.Marry(zillah, lamech);
 
-if (zillah + lamech)
-{
-    WriteLine($"{zillah.Name} and {lamech.Name} successfully got married.");
-}
+//if (zillah + lamech)
+//{
+//    WriteLine($"{zillah.Name} and {lamech.Name} successfully got married.");
+//}
 
-WriteLine($"{lamech.Name} is married to {lamech.Spouse?.Name ??
-"nobody"}");
-WriteLine($"{adah.Name} is married to {adah.Spouse?.Name ?? "nobody"}");
-WriteLine($"{zillah.Name} is married to {zillah.Spouse?.Name ??
-"nobody"}");
+//WriteLine($"{lamech.Name} is married to {lamech.Spouse?.Name ??
+//"nobody"}");
+//WriteLine($"{adah.Name} is married to {adah.Spouse?.Name ?? "nobody"}");
+//WriteLine($"{zillah.Name} is married to {zillah.Spouse?.Name ??
+//"nobody"}");
 
-// call instance method
-Person baby1 = lamech.ProcreateWith(adah);
+//// call instance method
+//Person baby1 = lamech.ProcreateWith(adah);
 
-// use operator to "multiply"
-Person baby3 = lamech * adah;
-baby3.Name = "Jubal";
-Person baby4 = zillah * lamech;
-baby4.Name = "Naamah";
+//// use operator to "multiply"
+//Person baby3 = lamech * adah;
+//baby3.Name = "Jubal";
+//Person baby4 = zillah * lamech;
+//baby4.Name = "Naamah";
 
-baby1.Name = "Jabal";
-WriteLine($"{baby1.Name} was born on {baby1.DateOfBirth}");
-// call static method
-Person baby2 = Person.Procreate(zillah, lamech);
-baby2.Name = "Tubalcain";
-WriteLine($"{lamech.Name} has {lamech.Children.Count} children.");
-WriteLine($"{adah.Name} has {adah.Children.Count} children.");
-WriteLine($"{zillah.Name} has {zillah.Children.Count} children.");
-for (int i = 0; i < lamech.Children.Count; i++)
-{
-    WriteLine(format: "{0}'s child #{1} is named \"{2}\".",
-    arg0: lamech.Name, arg1: i, arg2: lamech[i].Name);
-}
+//baby1.Name = "Jabal";
+//WriteLine($"{baby1.Name} was born on {baby1.DateOfBirth}");
+//// call static method
+//Person baby2 = Person.Procreate(zillah, lamech);
+//baby2.Name = "Tubalcain";
+//WriteLine($"{lamech.Name} has {lamech.Children.Count} children.");
+//WriteLine($"{adah.Name} has {adah.Children.Count} children.");
+//WriteLine($"{zillah.Name} has {zillah.Children.Count} children.");
+//for (int i = 0; i < lamech.Children.Count; i++)
+//{
+//    WriteLine(format: "{0}'s child #{1} is named \"{2}\".",
+//    arg0: lamech.Name, arg1: i, arg2: lamech[i].Name);
+//}
 
 
 // Deconstructing a Person
@@ -182,16 +182,16 @@ for (int i = 0; i < lamech.Children.Count; i++)
 //    Title = "C# 11 and .NET 7 - Modern Cross-Plataform Development"
 //};
 
-Book book = new(isbn: "978-1803237800", 
-    title: "C# 11 and .NET 7 - Modern Cross-Platform Development Fundamentals")
-{
-Author = "Mark J. Price",
-PageCount = 821
-};
+//Book book = new(isbn: "978-1803237800", 
+//    title: "C# 11 and .NET 7 - Modern Cross-Platform Development Fundamentals")
+//{
+//Author = "Mark J. Price",
+//PageCount = 821
+//};
 
-WriteLine("{0}: {1} written by {2} has {3:N0} pages.",
-book.Isbn, book.Title, book.Author, book.PageCount);
-
+//WriteLine("{0}: {1} written by {2} has {3:N0} pages.",
+//book.Isbn, book.Title, book.Author, book.PageCount);
+RunInputs();
 ReadKey();
 
 

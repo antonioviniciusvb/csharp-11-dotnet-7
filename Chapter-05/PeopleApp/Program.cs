@@ -2,8 +2,11 @@
 using PacktShare;
 using static Pack.Shared.WondersOfTheAncientWorld;
 
+#region Culture
 Thread.CurrentThread.CurrentCulture =
-System.Globalization.CultureInfo.GetCultureInfo("en-GB");
+System.Globalization.CultureInfo.GetCultureInfo("pt-BR");
+
+#endregion
 
 #region Sample Class, Enum
 //Person bob = new();

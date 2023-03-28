@@ -4,10 +4,12 @@ namespace Packt.Shared;
 
 public class Person : Object
 {
-    public const string Species = "Homo Sapiens";
+    public const string  Species = "Homo Sapiens";
 
     // read-only fields
     public readonly string HomePlanet = "Earth";
+
+    public readonly DateTime Instantiated;
 
     public string? Name { get; set; }
 
@@ -33,8 +35,17 @@ public class Person : Object
 
     public Person()
     {
+        
         Children = new List<Person>();
+        this.Instantiated = DateTime.Now;
     }
 
+    public Person(string initialName, string homePlanet)
+    {
+
+        Name = initialName;
+        HomePlanet = homePlanet;
+        Instantiated = DateTime.Now;
+    }
 
 }

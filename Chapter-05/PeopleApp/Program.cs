@@ -36,30 +36,34 @@ WriteLine($"Bob is a {Person.Species}");
 
 WriteLine($"Bob was born on  {bob.HomePlanet}");
 
+Person gunny = new(initialName: "Gunny", homePlanet: "Mars");
+WriteLine(format: "{0} of {1} was created at {2:hh:mm:ss} on a {2:dddd}.",
+arg0: gunny.Name, arg1: gunny.HomePlanet, arg2: gunny.Instantiated);
+
 
 #endregion
 
 #region Sample Static Members
 
-BankAccount.InterestRate = 0.012M; //store a shared value
+//BankAccount.InterestRate = 0.012M; //store a shared value
 
-BankAccount jonesAccount = new()
-{
-    AccountName = "Mrs. Jones",
-    Balance = 2400
-};
+//BankAccount jonesAccount = new()
+//{
+//    AccountName = "Mrs. Jones",
+//    Balance = 2400
+//};
 
-WriteLine($"{jonesAccount.AccountName} earned " +
-        $"{jonesAccount.Balance * BankAccount.InterestRate:C}");
+//WriteLine($"{jonesAccount.AccountName} earned " +
+//        $"{jonesAccount.Balance * BankAccount.InterestRate:C}");
 
-BankAccount gerrierAccount = new()
-{
-    AccountName = "Mrs. Gerrier",
-    Balance = 98
-};
+//BankAccount gerrierAccount = new()
+//{
+//    AccountName = "Mrs. Gerrier",
+//    Balance = 98
+//};
 
-WriteLine($"{gerrierAccount.AccountName} earned " +
-        $"{gerrierAccount.Balance * BankAccount.InterestRate:C}");
+//WriteLine($"{gerrierAccount.AccountName} earned " +
+//        $"{gerrierAccount.Balance * BankAccount.InterestRate:C}");
 
 #endregion
 

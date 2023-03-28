@@ -34,6 +34,8 @@ foreach (Person person in bob.Children)
 
 WriteLine($"Bob is a {Person.Species}");
 
+WriteLine($"Bob was born on  {bob.HomePlanet}");
+
 
 #endregion
 

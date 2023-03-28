@@ -6,6 +6,9 @@ public class Person : Object
 {
     public const string Species = "Homo Sapiens";
 
+    // read-only fields
+    public readonly string HomePlanet = "Earth";
+
     public string? Name { get; set; }
 
     // constants
